@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python w/Flask</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='assets/css/styles.css') }}" />
+</head>
+<body>
+    <main>
+        <h1 class="animate-title">Python w/ Flask</h1>
+        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae assumenda impedit vero laborum corporis incidunt nihil repellat deleniti modi tenetur. Deleniti autem explicabo sit? Aspernatur odio dicta cupiditate dolore id.</p>
+        
+        <!-- O /crud será definido como rota -->
+        <a href="/crud" class="a_panel">Acessar o Painel de Controle</a>
+    
+        <div class="image">
+            <img src="{{ url_for('static', filename='assets/img/Flask_logo.png') }}" alt="imagem bf"/>
+        </div>
+    </main>
+
+</body>
+</html>
